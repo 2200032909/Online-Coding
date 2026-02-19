@@ -86,7 +86,7 @@ export default function UserProfile() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50 p-6 sm:p-12 max-w-7xl mx-auto">
       <button
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/user-dashboard')}
         className="mb-8 inline-flex items-center space-x-2 px-5 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700 transition"
       >
         <svg
